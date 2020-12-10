@@ -1,0 +1,54 @@
+body, button {
+	font-family: 'Nerko One', cursive;
+}
+
+button {
+	padding: 3px;
+	margin: 5px;
+	font-size: 3vw;
+	width: 20%;
+	border-style: hidden;
+	border-radius: 20px;
+}
+
+button:hover {
+  background-color: #111;
+  color: white;
+}
+
+.split {
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.left {
+	text-align: center;
+	width: 30%;
+	left: 0;
+	background-color: #111;
+	background-image: url("holiday-tile.gif");
+	background-repeat: repeat;
+}
+
+.right {
+	width: 70%;
+	right: 0;
+	background-color: #111;
+	color: white;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.result {
+	font-size: 12vw;
+}
