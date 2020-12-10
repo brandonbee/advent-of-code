@@ -75,7 +75,7 @@ function day3(qPart){
 	$.ajax({
 		type: 'GET',
 		crossDomain: true,
-		url : "toboggan-map.json",
+		url: "data-dump/toboggan-map.json",
 		async: false,
 		contentType: "application/json",
 		dataType: "jsonp",
@@ -138,7 +138,7 @@ function day4(qPart){
 	$.ajax({
 		type: 'GET',
 		crossDomain: true,
-		url : "passport-batch.json",
+		url: "data-dump/passport-batch.json",
 		async: false,
 		contentType: "application/json",
 		dataType: "jsonp",
@@ -261,7 +261,7 @@ function day5(qPart){
 	$.ajax({
 		type: 'GET',
 		crossDomain: true,
-		url : "boarding-pass-list.json",
+		url: "data-dump/boarding-pass-list.json",
 		async: false,
 		contentType: "application/json",
 		dataType: "jsonp",
@@ -353,7 +353,7 @@ function day6(qPart){
 	$.ajax({
 		type: 'GET',
 		crossDomain: true,
-		url : "customs.json",
+		url: "data-dump/customs.json",
 		async: false,
 		contentType: "application/json",
 		dataType: "jsonp",
@@ -414,7 +414,7 @@ function day7(qPart){
 	$.ajax({
 		type: 'GET',
 		crossDomain: true,
-		url : "bag-rules.json",
+		url: "data-dump/bag-rules.json",
 		async: false,
 		contentType: "application/json",
 		dataType: "jsonp",
@@ -565,6 +565,7 @@ function day7(qPart){
 		//console.log(bags[trigger]);
 		recurse(bagArray);
 		console.log(subBagCount);
+		return subBagCount;
 	}
 }
 
@@ -572,7 +573,7 @@ function day8(qPart){
 	$.ajax({
 		type: 'GET',
 		crossDomain: true,
-		url : "console-program.json",
+		url: "data-dump/console-program.json",
 		async: false,
 		contentType: "application/json",
 		dataType: "jsonp",
@@ -700,8 +701,8 @@ function day9(qPart){
 	$.ajax({
 		type: 'GET',
 		crossDomain: true,
-		// url : "preamble-test.json",
-		url : "preamble.json",
+		// url: "data-dump/preamble-test.json",
+		url: "data-dump/preamble.json",
 		async: false,
 		contentType: "application/json",
 		dataType: "jsonp",
